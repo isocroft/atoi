@@ -2,10 +2,18 @@
 Algorithm to convert a string of valid integral characters into a number
 
 ## The Problem
-Now, you 
+Now, computers ar always solving problems. When building out any solution to a problem, we need to take several things to mind such as the form of the problem and its possible use cases (or execution context). In this particular exercise, we wish to convert data from one form to the other specifically from strings to valid integers. We are also going to make use of the JavaScript programming language.
+
+Our algorithm will have some assumptions (as all algorithm do). However, this assumption is based on the use cases as well as the form. The form of the problem is a conversion problem which requires us to inspect (or parse) the input thoroughly. We also need to make assumptions about finite resources at our disposal e.g.
+
+- Time
+- Space
+
+
 
 ## The Solution
 
+The solution is very mindful of 
 ```js
 /**
  * @param {string} str
