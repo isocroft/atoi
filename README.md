@@ -6,14 +6,17 @@ Now, computers ar always solving problems. When building out any solution to a p
 
 Our algorithm will have some assumptions (as all algorithm do). However, this assumption is based on the use cases as well as the form. The form of the problem is a conversion problem which requires us to inspect (or parse) the input thoroughly. We also need to make assumptions about finite resources at our disposal e.g.
 
-- Time
-- Space
+- Time (How much time it will take to provide the solution)
+- Space (How much memory it will use)
 
 
 
 ## The Solution
 
-The solution is very mindful of 
+The solution is very simple. It goes on to inspect each character in the input string and picks only digit and sign characters ('+' , '-') for the conversion step. We need to ignore whitespace characters as well as non-whitespce characters that are not digit or signs. We use a simple shortcut to convert a single digit character to its number equivalent. [Here is the runtime performance details](https://leetcode.com/submissions/detail/262340022/)
+
+> Find the code for the solution below:
+
 ```js
 /**
  * @param {string} str
